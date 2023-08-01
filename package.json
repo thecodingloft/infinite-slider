@@ -1,0 +1,24 @@
+{
+  "name": "js-infinite-logo-slider",
+  "version": "1.0.0",
+  "description": "## Description Ever wanted to have an infinite slider that moves smoothly to one direction? For instance, you might want to show logos of partners or brands that are moving smoothly across the screen.",
+  "main": "script.js",
+  "scripts": {
+    "minify": "terser infiniteSlider.js -o infiniteSlider.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecodingloft/infinite-slider.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thecodingloft/infinite-slider/issues"
+  },
+  "homepage": "https://github.com/thecodingloft/infinite-slider#readme",
+  "devDependencies": {
+    "terser": "^5.19.2",
+    "uglify-js": "^3.17.4"
+  }
+}

@@ -1,5 +1,24 @@
-import InfiniteSlider from './infiniteSlider.min.js';
+# Infinite Logo Slider
 
+## Description
+Ever wanted to have an infinite slider that moves smoothly to one direction?
+For instance, you might want to show logos of partners or brands that are moving smoothly across the screen.
+
+Then you've come to the right place.
+
+This JS class lets you insert an infinite slider (I call it "infinite logo slider" because it works great with logo images) into any website.
+
+You simply have to specify a parent container inside the config object where you would want to insert your slider. 
+
+Then you can use the config object to change images, texts, styles, and more!
+
+## How To Use It
+1. Import the minified class into your code.
+2. Create a new instance of the slider, pass in your config object.
+3. Update the config object as needed.
+4. If you make changes to the infiniteSlider Class, run `npm run minify`to minify the code into "infiniteSlider.min.js"
+
+```js 
 var sliderConfig = {
     sliderControls: {
         autoStart: true, // set to "true" if the slider should run automatically
@@ -46,3 +65,11 @@ var sliderConfig = {
 }
 
 var logoSlider = new InfiniteSlider(sliderConfig);
+```
+
+### Notes
+- play around with the elements width, margin, and padding to get the right size for your setup.
+- use the step and intervalTime properties to change the speed of the slider
+- if you don't use the autoStart property, make sure to call the startAnimation() function via a button click or other event
+- adjust the html and css as needed to include new features for your specific use case
+- for the development mode, you can add borders to the outer and inner container with the developmentMode property

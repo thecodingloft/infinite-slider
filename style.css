@@ -25,15 +25,18 @@ html {
 
 /* STYLES */
 body {
-    background: #01062F;
+    /* background: #01062F; */
+    background:  #f1f1f1;
     color: #000424;
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .content {
     width: 100vw;
+    overflow: hidden;
 }
