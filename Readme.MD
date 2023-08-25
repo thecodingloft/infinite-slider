@@ -19,6 +19,8 @@ Then you can use the config object to change images, texts, styles, and more!
 4. If you make changes to the infiniteSlider Class, run `npm run minify`to minify the code into "infiniteSlider.min.js"
 
 ```js 
+import InfiniteSlider from './infiniteSlider.min.js';
+
 var sliderConfig = {
     sliderControls: {
         autoStart: true, // set to "true" if the slider should run automatically
